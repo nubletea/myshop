@@ -1,0 +1,141 @@
+@charset "utf-8";
+*{box-sizing:border-box;}
+.container{
+	max-width:1200px;
+	padding-left:15px;
+	padding-right:15px;
+	margin:0 auto;
+}
+.row{
+	margin-left:-15px;
+	margin-right:-15px;
+	display:flex;
+	flex-wrap:wrap;
+}
+.flex{
+	display:flex;
+	flex-wrap:wrap;	
+}
+[class^="col"]{ /*그리드 기본 공식*/
+	padding-left:15px;
+	padding-right:15px;
+}
+@media(min-width:1025px){
+.col1{
+	width:8.333333%;	
+}
+.col2{
+	width:16.666666%;
+}
+.col3{
+	width:25%;
+}
+.col4{
+	width:33.333333%;
+}
+.col5{
+	width:41.666666%;
+}
+.col6{
+	width:50%;
+}
+.col7{
+	width:58.333333%;
+}
+.col8{
+	width:66.666666%;
+}
+.col9{
+	width:75%;
+}
+.col10{
+	width:83.333333%;
+}
+.col11{
+	width:91.666666%;
+}
+.col12{
+	width:100%;
+}
+}
+
+/* 태블릿*/
+@media(min-width:768px) and (max-width:1024px){
+.colt1{
+	width:8.333333%;	
+}
+.colt2{
+	width:16.666666%;
+}
+.colt3{
+	width:25%;
+}
+.colt4{
+	width:33.333333%;
+}
+.colt5{
+	width:41.666666%;
+}
+.colt6{
+	width:50%;
+}
+.colt7{
+	width:58.333333%;
+}
+.colt8{
+	width:66.666666%;
+}
+.colt9{
+	width:75%;
+}
+.colt10{
+	width:83.333333%;
+}
+.colt11{
+	width:91.666666%;
+}
+.colt12{
+	width:100%;
+}
+	
+}
+/*모바일용*/
+@media(max-width:767px){
+.colm1{
+	width:8.333333%;	
+}
+.colm2{
+	width:16.666666%;
+}
+.colm3{
+	width:25%;
+}
+.colm4{
+	width:33.333333%;
+}
+.colm5{
+	width:41.666666%;
+}
+.colm6{
+	width:50%;
+}
+.colm7{
+	width:58.333333%;
+}
+.colm8{
+	width:66.666666%;
+}
+.colm9{
+	width:75%;
+}
+.colm10{
+	width:83.333333%;
+}
+.colm11{
+	width:91.666666%;
+}
+.colm12{
+	width:100%;
+}
+}
+/*div class=col3 colt6 colm12*/

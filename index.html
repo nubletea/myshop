@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/material-icons.css">
+    <link rel="stylesheet" href="css/notosansKR.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/style.css">
+<link rel="icon" href="image/icon/favicon-16.png" sizes="16x16">
+<link rel="icon" href="image/icon/favicon-32.png" sizes="32x32">
+<link rel="icon" href="image/icon/favicon-48.png" sizes="48x48">
+<link rel="icon" href="image/icon/favicon-64.png" sizes="64x64">
+<link rel="icon" href="image/icon/favicon-128.png" sizes="128x128">
+<link rel="apple-touch-icon" href="image/icon/favicon-48.png">
+    <script src="js/jquery.js"></script>
+    <script src="js/script.js"></script>
+  <title>My shop</title>
+</head>
+<body>
+  <header class="container">
+    <a href="index.html" class="logo"><img src="image/logo/logo.png" alt="logo"></a>
+  </header>
+  <nav>
+    <span class="material-icons mobile-view">menu</span>
+    <ul class="nav">
+      <li>
+        <a href="#">New Arrivals</a>
+        <ul class="sub">
+          <li><a href="#">Top</a></li>
+          <li><a href="#">Bottom</a></li>
+          <li><a href="#">Dress</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">Woman</a>
+        <ul class="sub">
+          <li><a href="#">Top</a></li>
+          <li><a href="#">Bottom</a></li>
+          <li><a href="#">Dress</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">man</a>
+        <ul class="sub">
+          <li><a href="#">Top</a></li>
+          <li><a href="#">Bottom</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">kids & Baby</a>
+        <ul class="sub">
+          <li><a href="#">Top</a></li>
+          <li><a href="#">Bottom</a></li>
+          <li><a href="#">Dress</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+    <!--banner-->
+  <div class="container banner_section">
+    <div class="banner">
+      <div class="bannerin">
+        <img src="image/main/1.jpg" alt="main1" id="banner-img1">
+        <img src="image/main/2.jpg" alt="main2" id="banner-img2">
+        <img src="image/main/3.jpg" alt="main3" id="banner-img3">
+      </div>
+      <ul class="button">
+        <li><a href="#" class="btn1 btn-1 active" data-navia="#banner-img1"></a></li>
+        <li><a href="#" class="btn1 btn-2" data-navia="#banner-img2"></a></li>
+        <li><a href="#" class="btn1 btn-3" data-navia="#banner-img3"></a></li>
+      </ul>
+    </div>
+    <div class="side_img">
+      <div class="side side_up">
+        <img src="image/main/side_up.jpg" alt="up">
+        <div class="side_text_box">
+          <h4>10.23 ~ 11.23</h4>
+          <h3>생일기념 1달</h3>
+          <h2>1+1이벤트 안내</h2>
+          <h5>반수제에서 볼 수 없는 수제 공정 무상 지원</h5>
+          <a href="#" class="side_btn">자세히보기</a>
+        </div>
+      </div>
+      <div class="side side_down">
+        <img src="image/main/side_down.jpg" alt="down">
+        <div class="side_text_box">
+          <h4>가족 상품</h4>
+          <h3>가을 시즌오프</h3>
+          <h2>50% SALE</h2>
+          <h5>고급 정장을 저렴한 가격에 구매가능</h5>
+          <a href="#" class="side_btn">자세히보기</a>
+        </div>
+      </div>
+    </div>
+</div>
+<!--main-->
+  <main class="container">
+    <div class="main-top">
+      <h1 class="title text-center">New Arrivals</h1>
+      <a href="#tcontent" class="vcontent">내용보기</a>
+      <p class="title-contant" id='tcontent'>
+        사는가 고동을 충분히 거선의 보이는 것이다. 두기 수 피가 영락과 붙잡아
+         밝은 광야에서 위하여서. 사는가 능히 이상 그것을 작고 그들은 사람은 있
+         는가? 내는 살 하여도 것이다. 피부가 위하여서 것은 못할 기관과 그리하였
+         는가? 인생을 어디 설산에서 것이다. 산야에 청춘 품었기 아름다우냐? 맺어,
+          것이다.보라, 이상, 것이다. 보는 못하다 그것을 못할 희망의 풀이 어디 구
+          하지 위하여서.
+      </p>
+    </div>
+  
+  
+    <!-- list a-->
+    <div class="sub-box">
+      <h2 class="sub-title">MAN</h2>
+        <div class="sort-box">
+          <div>
+            <select name="sorting" class="sorting">
+              <option selected>신상품순</option>
+              <option value="">가격낮은순</option>
+            </select>
+          </div>
+          <div class="sortimg-box">
+              <img src="image/sort/sort1.png" class="sortimg" id="sort1" alt="sort1">
+              <img src="image/sort/sort2.png" class="sortimg" id="sort2" alt="sort2">
+          </div>
+      </div>
+    </div>
+    <div class="row listb" id="product-list">
+      <!--loop-->
+      <a href="view.html">
+        <img src="image/product/1.jpg" alt="1">
+        <h1 class="product-title">남성 스트라이프 정장(로얄블루)</h1>
+        <p class="product-contents">#남성#정장#정장추천#정장세트</p>
+        <p class="product-price">110,340원</p>
+      </a>
+      <!--loop-->
+      <!--loop-->
+      <a href="view.html">
+        <img src="image/product/2.jpg" alt="2">
+        <h1 class="product-title">유로옴므(회색)</h1>
+        <p class="product-contents">#남성#정장#정장추천#정장세트</p>
+        <p class="product-price">110,340원</p>
+      </a>
+      <!--loop-->
+      <!--loop-->
+      <a href="view.html">
+        <img src="image/product/3.jpg" alt="3">
+        <h1 class="product-title">레노마 다크 그레이 정장 콤비 자켓</h1>
+        <p class="product-contents">#남성#정장#정장추천#정장세트</p>
+        <p class="product-price">110,340원</p>
+      </a>
+      <!--loop-->
+      <!--loop-->
+      <a href="view.html">
+        <img src="image/product/4.jpg" alt="4">
+        <h1 class="product-title">네이비 울 블렌드 투톤 스트레치</h1>
+        <p class="product-contents">#남성#정장#정장추천#정장세트</p>
+        <p class="product-price">110,340원</p>
+      </a>
+      <!--loop-->
+      <!--loop-->
+      <a href="view.html">
+        <img src="image/product/5.jpg" alt="5">
+        <h1 class="product-title">레디핏 투톤 블루 스판 슬림 정장</h1>
+        <p class="product-contents">#남성#정장#정장추천#정장세트</p>
+        <p class="product-price">110,340원</p>
+      </a>
+      <!--loop-->
+      <!--loop-->
+      <a href="view.html">
+        <img src="image/product/6.jpg" alt="6">
+        <h1 class="product-title">베이직 스트라이프정장</h1>
+        <p class="product-contents">#남성#정장#정장추천#정장세트</p>
+        <p class="product-price">110,340원</p>
+      </a>
+      <!--loop-->
+      <!--loop-->
+      <a href="view.html">
+        <img src="image/product/7.jpg" alt="7">
+        <h1 class="product-title">네이비 포랄 울 스트레치 마이크로 정장 재킷 (남색)</h1>
+        <p class="product-contents">#남성#정장#정장추천#정장세트</p>
+        <p class="product-price">110,340원</p>
+      </a>
+      <!--loop-->
+      <!--loop-->
+      <a href="view.html">
+        <img src="image/product/8.jpg" alt="8">
+        <h1 class="product-title">그레이 포랄 울 스트레치 마이크로 정장 재킷 (회색)</h1>
+        <p class="product-contents">#남성#정장#정장추천#정장세트</p>
+        <p class="product-price">110,340원</p>
+      </a>
+      <!--loop-->
+      <!--loop-->
+      <a href="view.html">
+        <img src="image/product/9.jpg" alt="9">
+        <h1 class="product-title">GX 블루 울 캐시미어 마이크로 정장 재킷 (파란색)</h1>
+        <p class="product-contents">#남성#정장#정장추천#정장세트</p>
+        <p class="product-price">110,340원</p>
+      </a>
+      <!--loop-->
+      <!--loop-->
+      <a href="view.html">
+        <img src="image/product/10.jpg" alt="10">
+        <h1 class="product-title">고품질 더블 브레스트 남성 패션 슬림 정장</h1>
+        <p class="product-contents">#남성#정장#정장추천#정장세트</p>
+        <p class="product-price">110,340원</p>
+      </a>
+      <!--loop-->
+      <!--loop-->
+      <a href="view.html">
+        <img src="image/product/11.jpg" alt="11">
+        <h1 class="product-title">글렌 체크 그레이 정장</h1>
+        <p class="product-contents">#남성#정장#정장추천#정장세트</p>
+        <p class="product-price">110,340원</p>
+      </a>
+      <!--loop-->
+      <!--loop-->
+      <a href="view.html">
+        <img src="image/product/12.jpg" alt="12">
+        <h1 class="product-title">시어서커 데일리 글렌체크 베이지 스탠다드 정장</h1>
+        <p class="product-contents">#남성#정장#정장추천#정장세트</p>
+        <p class="product-price">110,340원</p>
+      </a>
+      <!--loop-->
+    </div>
+    <ul class="page">
+      <li><a href="#">1</a></li>
+      <li><a href="#">2</a></li>
+      <li><a href="#">3</a></li>
+      <li><a href="#">4</a></li>
+      <li><a href="#">5</a></li>
+      <li><a href="#">6</a></li>
+      <li><a href="#">7</a></li>
+      <li><a href="#">8</a></li>
+      <li><a href="#">9</a></li>
+      <li><a href="#">10</a></li>
+    </ul>
+    <!--/list a-->
+  </main>
+  <!--footer-->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col5">
+          <h1>About</h1>
+          <p>방황하였으며, 불러 주며, 어디 풍부하게 인생에
+            어디 되려니와, 철환하였는가? 위하여 이는 대고
+           , 황금시대를 군영과 우리 봄바람이다. 얼마나 전인 열
+           매를 웅대한 반짝이는 용감하고 넣는 끓는다. 찬미를 천하를 
+           있는 이성은 인간이 우리 것이다. 사람은 그들의 가는 생생하며, 미묘</p>
+           <p>
+           한 영락과 공자는 인간의 끓는 위하여서. 그림자는 힘차게 같
+           이 끝에 하여도 것이다. 행복스럽고 꽃 가장 황금시대를 구하지
+            그들에게 때까지 것이다.    </p>
+        </div>
+        <div>
+          <h1>CATEGORY</h1>
+          <ul>
+            <li><a href="#">New Arrivals</a></li>
+            <li><a href="#">Women</a></li>
+            <li><a href="#">men</a></li>
+            <li><a href="#">Kids & Baby</a></li>
+          </ul>
+        </div>
+        <div class="col4">
+          <h1>QUICK LINKS</h1>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Contribute</a></li>
+            <li><a href="#">Privacy & Policy</a></li>
+            <li><a href="#">SiteMap</a></li>
+          </ul>
+        </div>
+        <p class="copyr col12">Copyright &copy; 2020 All Right Reserved By Jin</p>
+      </div>
+    </div>
+  </footer>
+  <!--/footer-->
+</body>
+</html>
